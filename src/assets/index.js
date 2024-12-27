@@ -10,6 +10,9 @@ import Sauces from "./sauces.svg";
 import BgImage from "./bgimage.svg";
 import PizzaKarobka from "./pizzakarobka.svg";
 
+
+import Vector from "./Vector-pages.svg";
+
 export {
     Fire,
     Pizza,
@@ -22,4 +25,6 @@ export {
 
     BgImage,
     PizzaKarobka,
+
+    Vector,
 }

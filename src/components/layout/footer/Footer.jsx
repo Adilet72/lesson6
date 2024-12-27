@@ -53,7 +53,7 @@ const Footer = () => {
                         <li className={"flex gap-3"}><img src="/src/assets/Group 5-pages.svg" alt=""/>Москва, ул. Юных Ленинцев, д.99</li>
                         <li className="flex space-x-4">
                             <h6 className={"flex gap-3 mt-3"}><img src="/src/assets/Subtract-pages.svg" alt=""/>Facebook</h6>
-                            <h6 className={"flex gap-3 mt-3"}><img src="/src/assets/Vector-pages.svg" alt=""/>Instagram</h6>
+                            <h6 className={"flex gap-3 mt-3"}><img src="" alt=""/>Instagram</h6>
                         </li>
                     </ul>
                 </div>

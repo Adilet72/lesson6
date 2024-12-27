@@ -4,6 +4,7 @@ import Footer from "./footer/Footer.jsx";
 import LoginModal from "../login-modal/LoginModal.jsx";
 import {useState} from "react";
 import SMSModal from "../login-modal/SmsModal.jsx";
+import HomePage from "../../pages/home-page/HomePage.jsx";
 
 const Layout = () => {
     // state
@@ -15,7 +16,7 @@ const Layout = () => {
     return (
         <div>
             <Header setShowModal={setShowModal}/>
-            <Outlet/>
+            <HomePage/>
             {showModal === 'login' ? <LoginModal setShowModal={setShowModal}/> : null}
             {showModal === 'sms' ? <SMSModal setShowModal={setShowModal}/> : null}
             {/*{showModal === 'password' ? <LoginModal setShowModal={setShowModal}/> : null}*/}
