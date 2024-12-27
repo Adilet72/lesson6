@@ -12,7 +12,7 @@ export const routes = [
         element: <h1>cart Page</h1>,
     },
     {
-        path: '*',
+        path: '/',
         name: '',
         element: <h1>Not Found Page 404</h1>,
     },
