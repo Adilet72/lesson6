@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: rgba(128, 128, 128, 0.3);
+}
+section{
+    height: 1030px;
+    width: 1350px;
+    border: 1px solid red;
+    margin-bottom: 45px;
+}
+
