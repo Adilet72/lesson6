@@ -6,9 +6,9 @@ body{
     background: rgba(128, 128, 128, 0.3);
 }
 section{
-    height: 1030px;
-    width: 1350px;
-    border: 1px solid red;
+    height: 1000px;
+    width: 1250px;
     margin-bottom: 45px;
+    overflow: hidden;
 }
 

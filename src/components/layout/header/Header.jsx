@@ -5,7 +5,7 @@ const Header = (props) => {
     return (
         <div className={"container w-[1680px] bg-white mx-auto"}>
             <div
-                className={"w-[1300px] border-b-[1px] py-[10px] border-[#F0F0F0] mx-auto flex items-center justify-between"}>
+                className={"w-[1230px] border-b-[1px] py-[10px] border-[#F0F0F0] mx-auto flex items-center justify-between"}>
                 <div className={"flex items-center gap-[40px] "}>
                     <select className={""} name="" id="">
                         <option value="">Москва</option>

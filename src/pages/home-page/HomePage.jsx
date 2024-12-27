@@ -85,8 +85,8 @@ const HomePage = () => {
 
     return (
         <div className={"container w-[1680px] flex items-center justify-center mx-auto pt-[30px] bg-[#F9F9F9]"}>
-            <div className={"mx-auto"}>
-                <div className="flex gap-[30px]">
+            <div className={"mx-auto w-[1230px]"}>
+                <div className="flex gap-[25px]">
                     {menu.map((m) => {
                         return (
                             <div
@@ -118,7 +118,7 @@ const HomePage = () => {
                 </div>
                 <section id={"pizza"}>
                     <h2 className={"mb-[32px]"}>Pizza <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[15px]"}>
                         {pizza[0].pizza.map( pizzaItem => {
                             return (
                                 <div className={"adi0"}>
@@ -136,7 +136,7 @@ const HomePage = () => {
                 </section>
                 <section id={"sushi"}>
                     <h2 className={"mb-[32px]"}>Sushi <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                         {pizza[0].sushi.map(sushiItem => {
                             return (
                                 <div className={"adi0"}>
@@ -154,7 +154,7 @@ const HomePage = () => {
                 </section>
                 <section id={"drinks"}>
                     <h2 className={"mb-[32px]"}>Drinks <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                         {pizza[0].drinks.map( drinksItem => {
                             return (
                                 <div className={"adi0"}>
@@ -172,7 +172,7 @@ const HomePage = () => {
                 </section>
                 <section id={"snacks"}>
                     <h2 className={"mb-[32px]"}>Snacks <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                         {pizza[0].snacks.map(snacksItem => {
                             return (
                                 <div className={"adi0"}>
@@ -190,7 +190,7 @@ const HomePage = () => {
                 </section>
                 <section id={"combo"}>
                     <h2 className={"mb-[32px]"}>Combo <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                         {pizza[0].combo.map(comboItem => {
                             return (
                                 <div className={"adi0"}>
@@ -208,7 +208,7 @@ const HomePage = () => {
                 </section>
                 <section id={"desert"}>
                     <h2 className={"mb-[32px]"}>Desert <button>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                         {pizza[0].desserts.map(dessertsItem => {
                             return (
                                 <div className={"adi0"}>
@@ -226,7 +226,7 @@ const HomePage = () => {
                 </section>
                 <section id={"sauces"}>
                     <h2 className={"mb-[32px]"}>Sauces <button className={"ml-[1100px] bg-white w-[126px] h-[40px]"}>Филтр</button></h2>
-                    <div className={"flex flex-wrap gap-[30px]"}>
+                    <div className={"flex flex-wrap gap-[10px]"}>
                     {pizza[0].sauces.map(saucesItem => {
                             return (
                                 <div className={"adi0"}>
